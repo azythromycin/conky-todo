@@ -42,6 +42,7 @@ Click on the '+' icon and select the 'custom command' option (or something simil
 
 ### CLI Usage: todolist
 To add a task(s):
+
 ![image](https://github.com/user-attachments/assets/566f6bea-de89-4f0c-972e-0d596fd304b9)
 
 Notice that each task you add is assigned to a number. You use that number to refer to the task when you want to remove it from your list.
