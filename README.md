@@ -40,6 +40,24 @@ conky -c ~/.config/conky/my_conky.lua &
 Click on the '+' icon and select the 'custom command' option (or something similar if you're using a different DE)
 ![image](https://github.com/user-attachments/assets/74c54c36-12d2-435c-8f46-d838d9706eed)
 
+### CLI Usage: todolist
+To add a task(s):
+![image](https://github.com/user-attachments/assets/566f6bea-de89-4f0c-972e-0d596fd304b9)
+Notice that each task you add is assigned to a number. You use that number to refer to the task when you want to remove it from your list.
 
+To remove a task(s), you mark it as 'done' with the reference number that came with it at the time of adding
+![image](https://github.com/user-attachments/assets/86012961-4fec-484a-9a11-f04dbe06412e)
 
-
+To view all tasks:
+```bash
+todolist list
+```
+If you ever want to locate the task file for any reason, it is located in:
+```bash
+~/.config/conky/todo.txt
+```
+### Requirements
+Install these dependencies (if not already installed):
+```bash
+sudo apt install conky-all curl python3
+```
