@@ -61,3 +61,6 @@ Install these dependencies (if not already installed):
 ```bash
 sudo apt install conky-all curl python3
 ```
+
+🙌 Credits
+Made with caffeine by @azythromycin
